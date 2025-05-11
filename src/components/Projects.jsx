@@ -1,6 +1,10 @@
-import React from "react";
 import { Github, ExternalLink } from "lucide-react";
-import olova from "../assets/images/olova.png";
+import fallsResponseImg from "../assets/images/projectimg/fallsResponseImg.jpg";
+import studentEnrollmentImg from "../assets/images/projectimg/studentEnrollmentImg.jpg";
+import engineeringCrmImg from "../assets/images/projectimg/engineeringCrmImg.jpg";
+import mortgageCrmImg from "../assets/images/projectimg/mortgageCrmImg.jpg";
+import medtechPortalImg from "../assets/images/projectimg/medtechPortalImg.jpg";
+import jnjPortalImg from "../assets/images/projectimg/johnson-johnson-facility.jpeg";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const MacOsButtons = () => (
@@ -14,17 +18,80 @@ const MacOsButtons = () => (
 const ProjectShowcase = () => {
   const projects = [
     {
-      title: "Olova! A Lightweight JavaScript Library",
+      title: "J&J Japan – Healthcare & Education Platform",
       description:
-        "Olova.js is a lightweight JavaScript library for building modern, reactive, and dynamic web applications. It features a simple, component-based architecture, enabling developers to create reusable and interactive UI elements with minimal code and overhead.",
-      tags: ["JavaScript", "Reactive", "Web Development"],
+        "Led full-cycle development of a production-ready Power Pages portal for Johnson & Johnson Japan. The platform supports e-learning, sales reporting, and API-based recall tracking. Delivered robust backend plugins, improved UI/UX, and ensured continuous client collaboration. The live portal is actively used by healthcare professionals.",
+      tags: ["Power Pages", "Dynamics 365", "Healthcare", "API Integration", "Plugins", "UI/UX"],
       links: {
-        github: "https://github.com/olovajs/olova",
-        demo: "https://olova.js.org/",
+        github: "",
+        demo: "https://partner.jjkkpro.jp/ja-JP/signin?ReturnUrl=%2Fja-JP%2F",
       },
-      image: olova,
+      image: jnjPortalImg,
       featured: true,
     },
+    {
+      title: "Falls Response System for Emergency Care",
+      description:
+        "A robust solution for emergency care teams, including a Canvas App to capture falls data, Power Pages for client-side access, and Power Automate workflows integrated with government APIs. Visualized critical insights through Power BI dashboards.",
+      tags: ["Healthcare", "Canvas App", "Power Pages", "Power BI", "Automation"],
+      links: {
+        github: "",
+        demo: "",
+      },
+      image: fallsResponseImg,
+      featured: true,
+    }, {
+      title: "Student Enrollment Portal",
+      description:
+        "Developed a Power Pages-based multi-step form with SharePoint document uploads. Integrated Power BI for real-time application data insights and used Power Automate for automated notifications. Enabled role-based access and SSRS reports for summaries.",
+      tags: ["Education", "Power Pages", "SharePoint", "Power BI", "SSRS"],
+      links: {
+        github: "",
+        demo: "",
+      },
+      image: studentEnrollmentImg,
+      featured: true,
+    },
+    {
+      title: "Engineering CRM – Sales Module",
+      description:
+        "Customized Dynamics 365 CRM for an offshore engineering firm. Delivered solutions in agile sprints, developed plugins, and maintained custom views and forms to streamline the sales cycle.",
+      tags: ["CRM", "Dynamics 365", "Plugins", "Sales Module", "Agile"],
+      links: {
+        github: "",
+        demo: "",
+      },
+      image: engineeringCrmImg,
+      featured: false,
+    },
+    {
+      title: "Mortgage CRM – Client & Broker Portal",
+      description:
+        "Built a complete CRM for managing clients, leads, and brokers. Integrated NMLS API for real-time license verification and automated lead conversions. Enhanced reporting through SSRS and designed branded email templates.",
+      tags: ["Mortgage", "CRM", "NMLS API", "SSRS", "Automation"],
+      links: {
+        github: "",
+        demo: "",
+      },
+      image: mortgageCrmImg,
+      featured: false,
+    },
+    {
+      title: "MedTech – External Product Access Portal",
+      description:
+        "Developed a secure Power Pages portal for MedTech stakeholders. Used plugins, workflows, and UI customizations to streamline product access management with high security and usability standards.",
+      tags: ["MedTech", "Power Pages", "Plugins", "Security", "Workflow"],
+      links: {
+        github: "",
+        demo: "",
+      },
+      image: medtechPortalImg,
+      featured: true,
+    }
+
+
+
+
   ];
 
   return (

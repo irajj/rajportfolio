@@ -1,4 +1,3 @@
-import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import IconCloudDemo from "./globe";
@@ -6,26 +5,25 @@ import { Code2, Paintbrush, Database, Layout, Cpu, Cloud } from "lucide-react";
 import {
   FaReact,
   FaNodeJs,
-  FaPython,
-  FaDocker,
+
   FaGitAlt,
-  FaLinux,
+
   FaFigma,
-  FaAws,
+
 } from "react-icons/fa";
 import {
   SiNextdotjs,
   SiTypescript,
   SiTailwindcss,
-  SiPostgresql,
+
   SiMongodb,
-  SiGraphql,
-  SiJest,
+
+
   SiWebpack,
-  SiRedux,
+
   SiFirebase,
   SiVercel,
-  SiVite, Si365Datascience
+  SiVite,
 } from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
 import { BsFileEarmarkCode, BsGrid1X2 } from "react-icons/bs";
@@ -122,7 +120,7 @@ const SkillsSection = () => {
           name: "Node.js",
           icon: <FaNodeJs className="w-4 h-4 text-[#339933]" />,
         },
-       
+
         {
           name: "MongoDB",
           icon: <SiMongodb className="w-4 h-4 text-[#47A248]" />,
@@ -131,7 +129,7 @@ const SkillsSection = () => {
           name: "REST APIs",
           icon: <BsGrid1X2 className="w-4 h-4 text-[#FF6C37]" />,
         },
-       
+
       ],
     },
     {
@@ -148,7 +146,7 @@ const SkillsSection = () => {
           name: "Wireframing",
           icon: <BsGrid1X2 className="w-4 h-4 text-[#9CA3AF]" />,
         },
-       
+
       ],
     },
     {
@@ -156,11 +154,11 @@ const SkillsSection = () => {
       title: "Cloud & DevOps",
       color: "text-orange-400",
       skills: [
-        
+
         { name: "CI/CD", icon: <FcWorkflow className="w-4 h-4" /> },
-        
+
         { name: "Git", icon: <FaGitAlt className="w-4 h-4 text-[#F05032]" /> },
-       
+
       ],
     },
     {
@@ -172,12 +170,12 @@ const SkillsSection = () => {
           name: "VS Code",
           icon: <TbBrandVscode className="w-4 h-4 text-[#007ACC]" />,
         },
-    
+
         {
           name: "Webpack",
           icon: <SiWebpack className="w-4 h-4 text-[#8DD6F9]" />,
         },
-        
+
         {
           name: "Firebase",
           icon: <SiFirebase className="w-4 h-4 text-[#FFCA28]" />,
