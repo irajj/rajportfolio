@@ -7,9 +7,11 @@ import {
   FaGraduationCap,
   FaCode,
   FaEnvelope,
-  FaBars,
+  FaBars
 } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
+import { PiCertificateLight } from "react-icons/pi";
+
 
 export default function Header() {
   const location = useLocation();
@@ -42,6 +44,7 @@ export default function Header() {
       path: "/education",
     },
     { id: "projects", icon: FaLaptopCode, text: "Projects", path: "/projects" },
+    { id: "certificate", icon: PiCertificateLight , text: "Certificate", path: "/certificates" },
     { id: "contact", icon: FaEnvelope, text: "Contact", path: "/contact" },
   ];
 
