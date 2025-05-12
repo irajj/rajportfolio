@@ -57,7 +57,7 @@ const ExperienceSection = () => {
       icon: Layers,
       title: "Software Engineer – Dynamics CRM",
       company: "Vedlogic Solutions Pvt. Ltd.",
-      period: "2021 - 2023",
+      period: "2022 - 2023",
       description:
         "Gained hands-on experience in Dynamics 365 CE, including JavaScript customizations, XRM API, and workflow automation. Contributed to several client implementations and built a strong technical foundation for future growth.",
     },
