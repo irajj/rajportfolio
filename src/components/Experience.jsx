@@ -1,5 +1,5 @@
 import React from "react";
-import { Code2, Activity, Cpu, Layers, Network, Binary } from "lucide-react";
+import { Code2, Activity, Cpu, Layers, Network, Binary, Code } from "lucide-react";
 
 const ExperienceCard = ({
   title,
@@ -53,6 +53,14 @@ const ExperienceCard = ({
 
 const ExperienceSection = () => {
   const experiences = [
+    {
+      icon: Code,
+      title: "Intern – Web Development (MCA Internship)",
+      company: "Xiupra Tech",
+      period: "2020 - 2021",
+      description:
+        "Worked on multiple internal tools and client projects using HTML, CSS, JavaScript, React, ASP.NET (ASPX, C#), and Oracle JET. Built responsive web pages, implemented client-side validations, and collaborated with senior developers to enhance business applications.",
+    },
     {
       icon: Layers,
       title: "Software Engineer – Dynamics CRM",
